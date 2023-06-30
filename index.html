@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <!-- Box Icon -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/style/main.css" />
+
+    <title>Front End Developer - Coding Challenge</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Post Area -->
+      <div class="post_area">
+        <div class="post_area_header">
+          <img
+            class="post_area_profil_picture"
+            src="assets/images/person1.png"
+            alt=""
+          />
+          <div>
+            <p>
+              <span class="post_area_name">Garry Newman</span> posted on your
+              timeline
+            </p>
+            <p>32 minutes ago</p>
+          </div>
+          <i class="bx bx-dots-vertical-rounded"></i>
+        </div>
+        <p class="post_area_caption">
+          Remember the place we were talking about the other night? Found it!
+        </p>
+        <img
+          class="post_area_picture"
+          src="assets/images/post_img.jpg"
+          alt="beach view"
+        />
+        <div class="post_area_propertys">
+          <div class="post_area_property">
+            <i class="bx bxs-heart post_property_icon icon"></i>
+            <p>Like (<span>5</span>)</p>
+          </div>
+          <div class="post_area_property">
+            <i class="bx bxs-share-alt post_property_icon icon"></i>
+            <p>Share (<span>21</span>)</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Comment Area -->
+      <div class="comment_area">
+        <div class="comment_area_count">
+          <p><span>1</span> comment</p>
+          <i class="bx bx-chevron-down icon"></i>
+        </div>
+        <div class="comment_post">
+          <img class="comment_post_image" src="assets/images/person2.png" />
+          <div class="comment_post_detail">
+            <p class="comment_post_name">
+              Morgan Scheinderlin <span>June 30, 2023</span>
+            </p>
+            <p class="comment_post_text">
+              That's a wonderfull place. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Praesentium atque nulla ut dolorem aspernatur
+              facere ipsa blanditiis tempora, reiciendis nostrum!
+            </p>
+            <p class="comment_post_reply">Reply</p>
+            <i class="bx bxs-flag-alt report_icon"></i>
+          </div>
+        </div>
+        <div class="comment_post">
+          <img
+            class="comment_post_image"
+            src="assets/images/person3.png"
+            alt=""
+          />
+          <div class="comment_post_input">
+            <textarea
+              class="comment_post_input_text"
+              name=""
+              placeholder="Add a comment..."
+              id=""
+              cols="30"
+            ></textarea>
+            <button class="btn comment_post_button">Post Comment</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
